@@ -1,0 +1,132 @@
+@media only screen and (max-width: 500px){
+    .container{
+        margin: 0;
+        width: 200%;
+        box-shadow: none;
+    }
+    .search{
+        display: block;
+    }
+    .search-btn{
+        margin-bottom: 30px;
+    }
+    .search-btn input{
+        height: 100px;
+        font-size: 35px;
+        border-radius: 60px;
+    }
+    .search-btn button{
+        height: 100px;
+        width: 100px;
+    }
+    .search-btn button img{
+        width: 23px;
+    }
+    .curr-location{
+        margin-left: 25%;
+    }
+    .curr-location p{
+        margin-top: 15px;
+        font-size: 40px;
+    }
+    .curr-location button{
+        height: 80px;
+        width: 300px;
+        font-size: 25px;
+        border-radius: 60px;
+    }
+    .weather{
+        display: block;
+    }
+    .current{
+        width: 70%;
+    }
+    .current h1{
+        font-size: 100px;
+    }
+    .current h2{
+        font-size: 65px;
+    }
+    .col{
+        margin-right: 50px;
+    }
+    .humidity, .wind{
+        font-size: 38px;
+    }
+    .weekly-forecast h2{
+        font-size: 50px;
+    }
+    .card{
+        width: 300px;
+    }
+    .card p{
+        padding: 3px;
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .container{
+        margin: 0;
+        width: 200%;
+        box-shadow: none;
+    }
+    .search-btn input{
+        height: 100px;
+        width: 200%;
+        font-size: 35px;
+        border-radius: 60px;
+    }
+    .search-btn button{
+        height: 100px;
+        width: 100px;
+    }
+    .search-btn button img{
+        width: 23px;
+    }
+    .curr-location p{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .curr-location button{
+        height: 100px;
+        width: 300px;
+        font-size: 25px;
+        border-radius: 60px;
+    }
+    .weather{
+        display: block;
+        margin-left: 30%;
+    }
+    .current{
+        width: 60%;
+    }
+    .current h1{
+        font-size: 100px;
+    }
+    .current h2{
+        font-size: 65px;
+    }
+    .col{
+        margin-right: 50px;
+    }
+    .humidity, .wind{
+        font-size: 45px;
+    }
+    .col img{
+        width: 50px;
+        margin-right: 10px;
+    }
+    .weekly-forecast {
+        width: 70%;
+    }
+    .weekly-forecast h2{
+        font-size: 80px;
+    }
+    .card{
+        width: 300px;
+    }
+    .card p{
+        padding: 3px;
+        font-size: 25px;
+    }
+}
